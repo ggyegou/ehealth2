@@ -1,1 +1,11 @@
 This is source code of Ehealth Task2
+The project is developed and tested under python3.5 and windows-x64. We chose pycharm as our IDE.
+To finish this task, we crawled title and abstract of each pid including in each topic file from PubMed.
+We also downloaded pre-trained word vectors on https://nlp.stanford.edu/data/wordvecs. We chose glove.840B.300d.zip	.
+=================File List==================
+main.py: the main program. just run 'python main.py'
+ExtractContent.py: include functions that can extract content from topic files and documents.
+ListExe.py: we represent vector as a list. so we implemented several functions of vector like '+','·'.
+PreProcess.py: the script of pre-processing on documents and topics.
+w2v.py: we downloaded the pre-trained word vectors. this script load the vectors from the file.
+=============================================
