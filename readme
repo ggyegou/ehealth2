@@ -2,7 +2,9 @@ This is source code of Ehealth Task2
 The project is developed and tested under python3.5 and windows-x64. We chose pycharm as our IDE.
 To finish this task, we crawled title and abstract of each pid including in each topic file from PubMed.
 We also downloaded pre-trained word vectors on https://nlp.stanford.edu/data/wordvecs. We chose glove.840B.300d.zip	.
-The pre-processed crawled data and topic files could be found on our Google drive.
+The pre-processed crawled data and topic files could be found on our Google drive:
+  https://drive.google.com/open?id=0B1SN0e3hyW9hNU5fMkFNQ1Uwbm8
+  https://drive.google.com/open?id=0B1SN0e3hyW9hQmtDSUVOM2hIMkE
 =================File List==================
 main.py: the main program. just run 'python main.py'
 ExtractContent.py: include functions that can extract content from topic files and documents.
